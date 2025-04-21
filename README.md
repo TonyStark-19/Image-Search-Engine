@@ -37,7 +37,7 @@ A simple **Image Search App** built using **HTML, CSS, and JavaScript**, powered
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/your-username/image-search-app.git
+   git clone https://github.com/TonyStark-19/image-search-app.git
    ```
 2. **Navigate to the project folder**
    ```sh
