@@ -36,14 +36,16 @@ A simple **Image Search App** built using **HTML, CSS, and JavaScript**, powered
 ## ⚙️ Setup & Installation
 
 1. **Clone the repository**
+   
    ```sh
    git clone https://github.com/TonyStark-19/image-search-app.git
    ```
-2. **Navigate to the project folder**
+3. **Navigate to the project folder**
+   
    ```sh
    cd image-search-app
    ```
-3. **Open `index.html` in your browser** or use Live Server for best experience.
+5. **Open `index.html` in your browser** or use Live Server for best experience.
 
 ---
 
@@ -53,6 +55,7 @@ This project uses the **Unsplash API**. To use it, get your API key:
 1. Go to [Unsplash Developers](https://unsplash.com/developers)
 2. Create a new app and get your **Access Key**
 3. Replace the value of `accessKey` in `script.js`:
+
    ```js
    const accessKey = "YOUR_ACCESS_KEY_HERE";
    ```
