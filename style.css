@@ -10,7 +10,7 @@
 }
 
 body {
-    background: #39297b;
+    background: linear-gradient(135deg, hsla(252, 50%, 32%, 1) 36%, hsla(250, 29%, 65%, 1) 76%);
     color: #fff;
 }
 
@@ -41,13 +41,14 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 /* title */
 
 .title {
     text-align: center;
-    margin: 100px 0 50px;
+    margin: 100px 0 40px;
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -98,6 +99,11 @@ form button {
     user-select: none;
     outline: none;
     -webkit-tap-highlight-color: transparent;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #fb2c1d;
 }
 
 /* images container */
@@ -134,6 +140,20 @@ form button {
     user-select: none;
     outline: none;
     -webkit-tap-highlight-color: transparent;
+    transition: all 0.3s ease;
+}
+
+#show-more-btn:hover {
+    background: #fb2c1d;
+}
+
+/* loading */
+
+#loading-text {
+    display: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 /* responsiveness */
