@@ -16,7 +16,7 @@ async function searchImages() {
     loadingText.style.display = "block";
 
     try {
-        const response = await fetch(`http://localhost:3000/search?query=${keyword}&page=${page}`);
+        const response = await fetch(`https://image-search-engine-1.onrender.com/search?query=${keyword}&page=${page}`);
         const data = await response.json();
         console.log(data);
 
