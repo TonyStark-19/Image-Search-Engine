@@ -1,7 +1,7 @@
 # 📸 Image Search Engine (Unsplash API + Node Backend)
 
 [![Frontend Deployment](https://img.shields.io/badge/Vercel-Deployed-blue?style=flat-square&logo=vercel)](https://image-search-engine-sooty.vercel.app)
-[![Backend API](https://img.shields.io/badge/Render-Online-green?style=flat-square&logo=render)](https://image-search-engine-1.onrender.com)
+[![Backend API](https://img.shields.io/badge/Render-Online-green?style=flat-square&logo=render)](https://image-search-engine-2.onrender.com)
 
 A **modern, full-stack Image Search Engine** leveraging the Unsplash API via a secure Node.js backend. This project delivers a fast, responsive user experience with infinite-style pagination, demonstrating best practices in front-end development (HTML, CSS, JavaScript) and secure API key management (Node.js/Express).
 
@@ -14,7 +14,7 @@ The application is split into two separately deployed components, showcasing a m
 | Component | Deployment Platform | URL |
 | :--- | :--- | :--- |
 | **🌐 Frontend (Client)** | **Vercel** | [https://image-search-engine-sooty.vercel.app](https://image-search-engine-sooty.vercel.app) |
-| **⚙️ Backend (API Proxy)** | **Render** | [https://image-search-engine-1.onrender.com](https://image-search-engine-1.onrender.com) |
+| **⚙️ Backend (API Proxy)** | **Render** | [https://image-search-engine-2.onrender.com](https://image-search-engine-2.onrender.com) |
 
 ---
 
