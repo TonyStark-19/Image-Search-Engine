@@ -1,7 +1,21 @@
 # 📸 Image Search Engine (Unsplash API + Node Backend)
 
-[![Frontend Deployment](https://img.shields.io/badge/Vercel-Deployed-blue?style=flat-square&logo=vercel)](https://image-search-engine-sooty.vercel.app)
-[![Backend API](https://img.shields.io/badge/Render-Online-green?style=flat-square&logo=render)](https://image-search-engine-2.onrender.com)
+<!-- GitHub Stats -->
+![Repo Size](https://img.shields.io/github/repo-size/TonyStark-19/Image-Search-Engine)
+![Stars](https://img.shields.io/github/stars/TonyStark-19/Image-Search-Engine?color=blue)
+![Forks](https://img.shields.io/github/forks/TonyStark-19/Image-Search-Engine?color=blueviolet)
+![Last Commit](https://img.shields.io/github/last-commit/TonyStark-19/Image-Search-Engine?color=brightgreen)
+
+<!-- Deployment Badges -->
+![Frontend](https://img.shields.io/badge/Frontend-Vercel-black?logo=vercel)
+![Backend](https://img.shields.io/badge/Backend-Render-blue?logo=render)
+![API](https://img.shields.io/badge/Unsplash-API-orange?logo=unsplash)
+
+<!-- Project Features -->
+![Search](https://img.shields.io/badge/Image%20Search-Enabled-blue)
+![Pagination](https://img.shields.io/badge/Pagination-Show%20More-yellow)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-success)
+![Secure Key](https://img.shields.io/badge/API%20Key-Secure%20(Backend)-brightgreen)
 
 A **modern, full-stack Image Search Engine** leveraging the Unsplash API via a secure Node.js backend. This project delivers a fast, responsive user experience with infinite-style pagination, demonstrating best practices in front-end development (HTML, CSS, JavaScript) and secure API key management (Node.js/Express).
 
@@ -35,6 +49,15 @@ The application is split into two separately deployed components, showcasing a m
 ---
 
 ## ⚙️ Technologies Used
+
+<!-- Tech Stack -->
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![NodeJS](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)
+![dotenv](https://img.shields.io/badge/dotenv-Environment%20Vars-lightgrey)
+![CORS](https://img.shields.io/badge/CORS-Enabled-green)
 
 This project utilizes a standard MERN-stack architecture (without MongoDB) for a complete full-stack experience.
 
