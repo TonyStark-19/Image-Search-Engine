@@ -86,7 +86,7 @@ Follow these steps to get the project running on your local machine.
 ### **2. Project Clone**
 
 ```sh
-git clone [https://github.com/TonyStark-19/Image-Search-Engine.git](https://github.com/TonyStark-19/Image-Search-Engine.git)
+git clone https://github.com/TonyStark-19/Image-Search-Engine.git
 cd Image-Search-Engine
 ```
 
@@ -123,10 +123,6 @@ cd frontend
 Run: Simply open `index.html` in your web browser or use a live server extension (like VS Code's Live Server).
 
 ---
-
-### Usage, Contribution, and Credit
-
-The final section for user guidance and necessary attribution.
 
 ### 🎯 How to Use (Client Walkthrough)
 
