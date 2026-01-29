@@ -61,9 +61,13 @@ The application is split into two separately deployed components, showcasing a m
 
 This project utilizes a standard MERN-stack architecture (without MongoDB) for a complete full-stack experience.
 
+---
+
 ### **🌐 Frontend**
 * **HTML5, CSS3, JavaScript (Vanilla JS):** For a lightweight, fast, and dependency-minimal client.
 * **Vercel:** High-performance static site deployment.
+
+---
 
 ### **🖥️ Backend (API Proxy)**
 * **Node.js:** Server-side JavaScript runtime.
@@ -78,10 +82,14 @@ This project utilizes a standard MERN-stack architecture (without MongoDB) for a
 
 Follow these steps to get the project running on your local machine.
 
+---
+
 ### **1. 🔑 Unsplash API Key**
 
 1.  Go to [Unsplash Developers](https://unsplash.com/developers) and create a new application.
 2.  Obtain your **Access Key**. You will need this for the backend setup.
+
+---
 
 ### **2. Project Clone**
 
@@ -89,6 +97,8 @@ Follow these steps to get the project running on your local machine.
 git clone https://github.com/TonyStark-19/Image-Search-Engine.git
 cd Image-Search-Engine
 ```
+
+---
 
 ### ***3. 🖥️ Backend Setup (Node + Express)***
 
@@ -107,6 +117,8 @@ npm start
 ```
 The backend API will run on http://localhost:3000.
 
+---
+
 ### 4. 🌐 Frontend Setup (HTML, CSS, JS)
 The frontend is a static web application.
 
@@ -114,6 +126,8 @@ The frontend is a static web application.
 # Go to the frontend directory
 cd frontend
 ```
+
+---
 
 **Configuration:** Before opening the frontend, you must update the API endpoint it uses.
 
