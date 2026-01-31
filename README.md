@@ -159,5 +159,13 @@ Contributions are welcome! If you find a bug or have a suggestion for an improve
 
 ---
 
+## 📜 License
+
+This project is licensed under the **MIT License** – which means you are free to use, modify, and distribute the code for personal or commercial purposes with proper attribution.
+
+See the [LICENSE](LICENSE) file for full details.
+
+---
+
 Made with ❤️ by [TonyStark-19](https://github.com/TonyStark-19) (Aditya Chandel)
 
