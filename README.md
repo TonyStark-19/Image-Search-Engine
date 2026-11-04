@@ -34,17 +34,19 @@ The application is split into two separately deployed components, showcasing a m
 
 ## 📸 Screenshot
 
-![Image Search App](images/image.png)
+![Image Search App](images/previews/image.png)
 
 ---
 
 ## ✨ Features
 
-* **🔍 Secure Image Search:** Fethes high-quality images using the Unsplash API, ensuring the API key is **securely hidden** and proxied via the Node/Express backend.
-* **📜 Infinite-Style Pagination:** Uses a **"Show More"** button to seamlessly load additional image results.
-* **⚡ Optimized UX:** Includes a **loading indicator** to manage perceived performance, especially during initial backend spin-up (Render free tier).
-* **📱 Fully Responsive Design:** Images display in a **dynamic grid layout** on desktops and a clean, stacked column view on mobile devices.
-* **🔗 Direct Linking:** Clicking any image opens the original photo page on Unsplash in a new tab.
+| Feature | Description |
+|:---|:---|
+| **Secure Image Search** | Fetches high-quality images using the Unsplash API, with the API key securely stored on the server and API requests handled through a Node.js/Express backend. |
+| **Infinite-Style Pagination** | Uses a **Show More** button to load additional image results without refreshing the page. |
+| **Optimized User Experience** | Includes loading indicators to provide visual feedback while fetching images, especially during initial backend spin-up on Render's free tier. |
+| **Fully Responsive Design** | Displays images in a dynamic grid layout on desktops and an optimized, stacked layout on mobile devices. |
+| **Direct Image Linking** | Allows users to click on any image to open its original photo page on Unsplash in a new browser tab. |
 
 ---
 
@@ -63,18 +65,36 @@ This project utilizes a standard MERN-stack architecture (without MongoDB) for a
 
 ---
 
-### **🌐 Frontend**
-* **HTML5, CSS3, JavaScript (Vanilla JS):** For a lightweight, fast, and dependency-minimal client.
-* **Vercel:** High-performance static site deployment.
+## 🛠️ Technologies Used
 
----
+> 🌐 Frontend
 
-### **🖥️ Backend (API Proxy)**
-* **Node.js:** Server-side JavaScript runtime.
-* **Express.js:** Minimalist web application framework for handling routing and API calls.
-* **Unsplash API:** Primary data source for images.
-* **`dotenv`:** Secure management of environment variables (`UNSPLASH_KEY`).
-* **Render:** Cloud platform for hosting the Node.js API service.
+| Technology | Purpose |
+|:---|:---|
+| **HTML5** | Structures the website's content and layout. |
+| **CSS3** | Handles styling, layouts, and responsive design. |
+| **JavaScript (Vanilla JS)** | Manages UI interactions, image rendering, and communication with the backend. |
+
+> 🖥️ Backend
+
+| Technology | Purpose |
+|:---|:---|
+| **Node.js** | Provides the server-side JavaScript runtime environment. |
+| **Express.js** | Handles API routing and manages requests between the frontend and Unsplash API. |
+| **dotenv** | Securely manages environment variables, including the Unsplash API key. |
+
+> 🔗 External API
+
+| Service | Purpose |
+|:---|:---|
+| **Unsplash API** | Provides high-quality images and image search functionality. |
+
+> ☁️ Deployment & Hosting
+
+| Platform | Purpose |
+|:---|:---|
+| **Vercel** | Hosts and deploys the frontend application. |
+| **Render** | Hosts and deploys the Node.js/Express backend API service. |
 
 ---
 
@@ -86,8 +106,8 @@ Follow these steps to get the project running on your local machine.
 
 ### **1. 🔑 Unsplash API Key**
 
-1.  Go to [Unsplash Developers](https://unsplash.com/developers) and create a new application.
-2.  Obtain your **Access Key**. You will need this for the backend setup.
+- Go to [Unsplash Developers](https://unsplash.com/developers) and create a new application.
+- Obtain your **Access Key**. You will need this for the backend setup.
 
 ---
 
@@ -167,5 +187,4 @@ See the [LICENSE](LICENSE) file for full details.
 
 ---
 
-Made with ❤️ by [TonyStark-19](https://github.com/TonyStark-19) (Aditya Chandel)
-
+Made with ❤️ by [Aditya Chandel](https://github.com/TonyStark-19)
