@@ -15,7 +15,6 @@ body {
 }
 
 /* scrollbar */
-
 html,
 body {
     overflow-y: auto;
@@ -45,7 +44,6 @@ body {
 }
 
 /* title */
-
 .title {
     text-align: center;
     margin: 100px 0 40px;
@@ -54,7 +52,6 @@ body {
 }
 
 /* form */
-
 form {
     width: 90%;
     max-width: 600px;
@@ -66,7 +63,6 @@ form {
 }
 
 /* input box */
-
 form input {
     flex: 1;
     height: 100%;
@@ -84,7 +80,6 @@ form input::placeholder {
 }
 
 /* search button */
-
 form button {
     padding: 0 40px;
     height: 100%;
@@ -107,7 +102,6 @@ form button:hover {
 }
 
 /* images container */
-
 #search-result {
     width: 85%;
     margin: 100px 0 50px;
@@ -117,7 +111,6 @@ form button:hover {
 }
 
 /* image */
-
 #search-result img {
     width: 100%;
     height: 250px;
@@ -126,7 +119,6 @@ form button:hover {
 }
 
 /* show more button */
-
 #show-more-btn {
     background: #ff3929;
     color: #fff;
@@ -148,7 +140,6 @@ form button:hover {
 }
 
 /* loading */
-
 #loading-text {
     display: none;
     margin-bottom: 20px;
@@ -157,23 +148,19 @@ form button:hover {
 }
 
 /* responsiveness */
-
 @media (max-width: 1240px) {
-
     #search-result {
         width: 90%;
     }
 }
 
 @media (max-width: 1100px) {
-
     #search-result {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (max-width: 780px) {
-
     .title {
         margin: 50px 0 30px;
         font-size: 25px;
@@ -189,7 +176,6 @@ form button:hover {
 }
 
 @media (max-width: 660px) {
-
     form {
         height: 65px;
         max-width: 500px;
@@ -197,7 +183,6 @@ form button:hover {
 }
 
 @media (max-width: 550px) {
-
     #search-result {
         width: 80%;
         grid-template-columns: 1fr;
@@ -214,7 +199,6 @@ form button:hover {
 }
 
 @media (max-width: 450px) {
-
     form {
         height: 50px;
     }
@@ -230,7 +214,6 @@ form button:hover {
 }
 
 @media (max-width: 400px) {
-
     .title {
         font-size: 20px;
     }
